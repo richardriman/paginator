@@ -34,13 +34,13 @@ defmodule Paginator.Mixfile do
     [
       {:calendar, "~> 1.0.0", only: :test},
       {:dialyxir, "~> 1.0", only: [:dev], runtime: false},
-      {:ecto, "~> 3.0"},
-      {:ecto_sql, "~> 3.0"},
+      {:ecto, "~> 3.12.4"},
+      {:ecto_sql, "~> 3.12.1"},
       {:ex_doc, "~> 0.18", only: :dev, runtime: false},
       {:ex_machina, "~> 2.1", only: :test},
       {:inch_ex, "~> 2.0", only: [:dev, :test]},
       {:postgrex, "~> 0.13", optional: true},
-      {:plug_crypto, "~> 1.2.0"}
+      {:plug_crypto, "~> 2.1.0"}
     ]
   end
 
